@@ -12,7 +12,8 @@
 - git add
   - 전체 파일 : git add * | git add .
 - git commit
-  -  
+  - 옵션 m : 메시지를 추가한다. ex) git commit -m "메시지"
+  - 옵션 am :  add 이후 메시지를 추가한다. 단, 한번이라도 트래킹이 되고 있는 파일만 add 된다. ex) git commit -am "메시지"
 - git log
 - git reset
 - git rm --cached : git add 삭제, --cached 옵션이 없는 경우 실제 파일도 삭제
